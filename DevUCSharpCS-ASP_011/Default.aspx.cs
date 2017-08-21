@@ -22,6 +22,10 @@ namespace DevUCSharpCS_ASP_011
             {
                 resultLabel.Text = "Yes! They're equivalent!";             
             }
+            else
+            {
+                resultLabel.Text = "Nope, they're not equivalent!";
+            }
         }
     }
 }
