@@ -46,14 +46,18 @@ namespace DevUCSharpCS_ASP_011
             {
                 resultLabel.Text = "You must be healthy!";
             }
-            else if (pbjRadioButton.Checked)
+            else (pbjRadioButton.Checked)
             {
                 resultLabel.Text = "You must be a fun loving person!";
             }
-            else
-            {
-                resultLabel.Text = "Please select  one of the options.";
-            }
+
+            // removed the need for the last clause in the if, else if, else statment by making one of the radio
+            //buttons checked by default
+
+            //else
+            //{
+            //    resultLabel.Text = "Please select  one of the options.";
+            //}
         }
     }
 }
