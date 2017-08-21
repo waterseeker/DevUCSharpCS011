@@ -19,6 +19,12 @@
             <asp:CheckBox ID="awesomeCheckBox" runat="server" Text="Are you awesome?" />
             <br />
             <br />
+            <asp:RadioButton ID="pizzaRadioButton" runat="server" Text="Pizza" />
+            <br />
+            <asp:RadioButton ID="saladRadioButton" runat="server" Text="Salad" />
+            <br />
+            <asp:RadioButton ID="pbjRadioButton" runat="server" Text="Peanut Butter and Jelly" />
+            <br />
             <br />
             <asp:Button ID="okButton" runat="server" OnClick="Button1_Click" Text="OK" />
             <br />

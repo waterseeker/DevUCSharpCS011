@@ -26,13 +26,33 @@ namespace DevUCSharpCS_ASP_011
             //{
             //    resultLabel.Text = "Nope, they're not equivalent!";
             //}
-            if (awesomeCheckBox.Checked == true)
+
+
+            //checkbox
+            //if (awesomeCheckBox.Checked)
+            //{
+            //    resultLabel.Text = "Yup, awesomeness detection confirmed!";
+            //}
+            //else
+            //{
+            //    resultLabel.Text = "Think again! Awesomeness definately detected from your general direction!";
+            //}
+
+            if (pizzaRadioButton.Checked)
             {
-                resultLabel.Text = "Yup, awesomeness detection confirmed!";
+                resultLabel.Text = "You must be from Chicago!";
+            }
+            else if (saladRadioButton.Checked)
+            {
+                resultLabel.Text = "You must be healthy!";
+            }
+            else if (pbjRadioButton.Checked)
+            {
+                resultLabel.Text = "You must be a fun loving person!";
             }
             else
             {
-                resultLabel.Text = "Think again! Awesomeness definately detected from your general direction!";
+                resultLabel.Text = "Please select  one of the options.";
             }
         }
     }
