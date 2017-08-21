@@ -16,7 +16,10 @@ namespace DevUCSharpCS_ASP_011
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-
+            if (firstTextBox.Text == secondTextBox.Text)
+            {
+                resultLabel.Text = "Yes! They're equivalent!";             
+            }
         }
     }
 }
