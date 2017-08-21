@@ -19,11 +19,11 @@
             <asp:CheckBox ID="awesomeCheckBox" runat="server" Text="Are you awesome?" />
             <br />
             <br />
-            <asp:RadioButton ID="pizzaRadioButton" runat="server" Text="Pizza" />
+            <asp:RadioButton ID="pizzaRadioButton" runat="server" GroupName="FoodGroup" Text="Pizza" />
             <br />
-            <asp:RadioButton ID="saladRadioButton" runat="server" Text="Salad" />
+            <asp:RadioButton ID="saladRadioButton" runat="server" GroupName="FoodGroup" Text="Salad" />
             <br />
-            <asp:RadioButton ID="pbjRadioButton" runat="server" Text="Peanut Butter and Jelly" />
+            <asp:RadioButton ID="pbjRadioButton" runat="server" GroupName="FoodGroup" Text="Peanut Butter and Jelly" />
             <br />
             <br />
             <asp:Button ID="okButton" runat="server" OnClick="Button1_Click" Text="OK" />
