@@ -16,6 +16,8 @@ namespace DevUCSharpCS_ASP_011
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+            resultLabel.Text = ""; //this sets the label to empty in case there is a message in it from a previous equivalency check. If we 
+            //didn't do this, the message would stay on the screen.
             if (firstTextBox.Text == secondTextBox.Text)
             {
                 resultLabel.Text = "Yes! They're equivalent!";             
