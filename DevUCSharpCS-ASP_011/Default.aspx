@@ -16,6 +16,10 @@
 &nbsp;?<br />
             <br />
             <br />
+            <asp:CheckBox ID="awesomeCheckBox" runat="server" Text="Are you awesome?" />
+            <br />
+            <br />
+            <br />
             <asp:Button ID="okButton" runat="server" OnClick="Button1_Click" Text="OK" />
             <br />
             <br />

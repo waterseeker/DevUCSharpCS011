@@ -40,6 +40,15 @@ namespace DevUCSharpCS_ASP_011 {
         protected global::System.Web.UI.WebControls.TextBox secondTextBox;
         
         /// <summary>
+        /// awesomeCheckBox control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox awesomeCheckBox;
+        
+        /// <summary>
         /// okButton control.
         /// </summary>
         /// <remarks>

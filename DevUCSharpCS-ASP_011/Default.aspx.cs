@@ -18,13 +18,21 @@ namespace DevUCSharpCS_ASP_011
         {
             resultLabel.Text = ""; //this sets the label to empty in case there is a message in it from a previous equivalency check. If we 
             //didn't do this, the message would stay on the screen.
-            if (firstTextBox.Text == secondTextBox.Text)
+            //if (firstTextBox.Text == secondTextBox.Text)
+            //{
+            //    resultLabel.Text = "Yes! They're equivalent!";             
+            //}
+            //else
+            //{
+            //    resultLabel.Text = "Nope, they're not equivalent!";
+            //}
+            if (awesomeCheckBox.Checked == true)
             {
-                resultLabel.Text = "Yes! They're equivalent!";             
+                resultLabel.Text = "Yup, awesomeness detection confirmed!";
             }
             else
             {
-                resultLabel.Text = "Nope, they're not equivalent!";
+                resultLabel.Text = "Think again! Awesomeness definately detected from your general direction!";
             }
         }
     }
